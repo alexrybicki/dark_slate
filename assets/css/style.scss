@@ -10,16 +10,16 @@ $light: #D3DEEA;
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
 
-$arbig: 'Abril Fatface', serif;
-ar$body: 'Lato', sans-serif;
+// $arbig: 'Abril Fatface', serif;
+// ar$body: 'Lato', sans-serif;
 
-arbody {
-  background: $dark;
-}
+// arbody {
+//   background: $dark;
+// }
 
-.artop {
-  margin-top: 30px;
-}
+// .artop {
+//   margin-top: 30px;
+// }
 
 .arcontainer {
   margin: 0 auto;
@@ -55,7 +55,6 @@ arbody {
   animation: float 2s ease-out infinite;
   z-index: 0;
 }
-
 
 .face {
   position: absolute;
