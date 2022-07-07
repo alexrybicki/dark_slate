@@ -366,6 +366,7 @@ Full-Width Styles
 #main_content_wrap {
   background: #252631;
   border-top: 1px solid #111;
+  min-height: calc(100vh - 299px);
  /* border-bottom: 1px solid #111; */
 }
 
