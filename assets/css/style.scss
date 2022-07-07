@@ -7,7 +7,12 @@ $white: #EDEDED;
 $gray: #BFC0C0;
 $dark: #252631;
 $light: #D3DEEA;
+$shadow: #0000006b;
 
+.artop {
+  text-align: center;
+  margin-top: 30px;
+}
 .arcontainer {
   margin: 0 auto;
   position: relative;
@@ -111,7 +116,7 @@ $light: #D3DEEA;
   position: absolute;
   width: 30%;
   height: 7%;
-  background: $gray;
+  background: $shadow;
   left: 35%;
   top: 80%;
   border-radius: 50%;
