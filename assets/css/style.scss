@@ -10,18 +10,18 @@ $light: #D3DEEA;
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
 
-$big: 'Abril Fatface', serif;
-$body: 'Lato', sans-serif;
+$arbig: 'Abril Fatface', serif;
+ar$body: 'Lato', sans-serif;
 
-body {
+arbody {
   background: $dark;
 }
 
-.top {
+.artop {
   margin-top: 30px;
 }
 
-.container {
+.arcontainer {
   margin: 0 auto;
   position: relative;
   width: 250px;
@@ -121,7 +121,7 @@ body {
   border-radius: 0 0 30% 100%;
 }
 
-.shadow {
+.arshadow {
   position: absolute;
   width: 30%;
   height: 7%;
@@ -150,34 +150,34 @@ body {
   }
 }
 
-.bottom {
+.arbottom {
   margin-top: 10px;
 }
 
-/*text styling*/
-h1 {
-  font-family: $big;
-  color: $white;
-  text-align: center;
-  font-size: 9em;
-  margin: 0;
-  text-shadow: -1px 0 $gray, 0 1px $gray, 1px 0 $gray, 0 -1px $gray;
-}
-h3 {
-  font-family: $body;
-  font-size: 2em;
-  text-transform: uppercase;
-  text-align: center;
-  color: $gray;
-  margin-top: -20px;
-  font-weight: 900;
-}
-p {
-  text-align: center;
-  font-family: $body;
-  color: $dark;
-  font-size: .6em;
-  margin-top: -20px;
-  text-transform: uppercase;
-}
+// /*text styling*/
+// h1 {
+//   font-family: $big;
+//   color: $white;
+//   text-align: center;
+//   font-size: 9em;
+//   margin: 0;
+//   text-shadow: -1px 0 $gray, 0 1px $gray, 1px 0 $gray, 0 -1px $gray;
+// }
+// h3 {
+//   font-family: $body;
+//   font-size: 2em;
+//   text-transform: uppercase;
+//   text-align: center;
+//   color: $gray;
+//   margin-top: -20px;
+//   font-weight: 900;
+// }
+// p {
+//   text-align: center;
+//   font-family: $body;
+//   color: $dark;
+//   font-size: .6em;
+//   margin-top: -20px;
+//   text-transform: uppercase;
+// }
 
