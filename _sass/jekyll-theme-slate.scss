@@ -51,8 +51,19 @@ body {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+
+
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "main" "footer";
+  grid-template-rows: 1fr 80px;
 }
 
+main {
+    background-color: #F8BBD0;
+    grid-area: main;
+}
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
@@ -378,6 +389,10 @@ Full-Width Styles
   background: #15161c;
 }
 
+footer {
+    background-color: #15161c;
+    grid-area: footer;
+}
 
 
 /*******************************************************************************
