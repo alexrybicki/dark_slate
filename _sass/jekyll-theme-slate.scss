@@ -376,16 +376,10 @@ Full-Width Styles
 
 #main_content {
   padding-top: 40px;
-  height: 100%;
-  margin: 0 auto -89px; /* the bottom margin is the negative value of the footer's height */
 }
 
 #footer_wrap {
   background: #15161c;
-}
-
-.footer, .push {
-    height: 89px; /* .push must be the same height as .footer */
 }
 
 /*******************************************************************************
