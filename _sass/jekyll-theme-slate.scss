@@ -51,19 +51,12 @@ body {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-
-
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 1fr;
-  grid-template-areas: "main" "footer";
-  grid-template-rows: 1fr 80px;
 }
 
-main {
-    background-color: #F8BBD0;
-    grid-area: main;
+html, body {
+    height: 100%;
 }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
@@ -374,12 +367,13 @@ Full-Width Styles
   background: url(../images/sprite_download.png) no-repeat top right;
 }
 
+/*
 #main_content_wrap {
   background: #252631;
   border-top: 1px solid #111;
   min-height: calc(100vh - 299px);
  /* border-bottom: 1px solid #111; */
-}
+/*}
 
 #main_content {
   padding-top: 40px;
@@ -388,12 +382,17 @@ Full-Width Styles
 #footer_wrap {
   background: #15161c;
 }
+*/
 
-footer {
-    background-color: #15161c;
-    grid-area: footer;
+.wrapper {
+    min-height: 100%;
+    height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
 }
-
+.footer, .push {
+    height: 155px; /* .push must be the same height as .footer */
+}
 
 /*******************************************************************************
 Small Device Styles
