@@ -428,6 +428,12 @@ Small Device Styles
 *******************************************************************************/
 
 @media screen and (max-width: 992px) {
+
+.scene {
+	width: 275px;
+	height: 250px;
+}
+  
   img {
     max-width: 70%;
   }
