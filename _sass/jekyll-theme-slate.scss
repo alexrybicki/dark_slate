@@ -439,6 +439,10 @@ Small Device Styles
   body {
     font-size:14px;
   }
+  
+  img {
+    max-width: 640px;
+  }
 
   #downloads {
     display: none;
