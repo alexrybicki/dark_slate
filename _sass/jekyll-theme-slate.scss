@@ -275,7 +275,6 @@ Card flip
 .scene {
   width: 492px;
   height: 492px;
-  border: 1px solid #CCC;
   margin: 40px 0;
   perspective: 600px;
 }
@@ -307,11 +306,9 @@ Card flip
 }
 
 .card__face--front {
-  background: red;
 }
 
 .card__face--back {
-  background: blue;
   transform: rotateY(180deg);
 }
 
