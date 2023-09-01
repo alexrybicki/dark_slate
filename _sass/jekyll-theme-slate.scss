@@ -266,6 +266,23 @@ kbd {
 }
 
 /*******************************************************************************
+Fade in and out
+*******************************************************************************/
+.fadeInAndOut {
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+/*******************************************************************************
 Card flip
 *******************************************************************************/
 .scene {
