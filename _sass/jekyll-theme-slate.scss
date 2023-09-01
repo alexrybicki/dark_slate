@@ -270,7 +270,7 @@ Fade in and out
 *******************************************************************************/
 .fadeInAndOut {
     -webkit-animation: fadeinout 4s linear forwards;
-    animation: fadeinout 4s linear forwards;
+    animation: fadeinout 10s linear forwards;
     opacity: 0;
 }
 
@@ -280,6 +280,21 @@ Fade in and out
 
 @keyframes fadeinout {
   50% { opacity: 1; }
+}
+
+.fadeInAndOut:hover {
+	    -webkit-animation: fadeinout 5s linear forwards;
+    animation: fadeinout 10s linear forwards;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}
 }
 
 /*******************************************************************************
