@@ -269,8 +269,8 @@ kbd {
 Fade in and out
 *******************************************************************************/
 .fadeInAndOut {
-    -webkit-animation: fadeinout 4s linear forwards;
-    animation: fadeinout 10s linear forwards;
+    -webkit-animation: fadeinout 4s linear;
+    animation: fadeinout 10s linear;
     opacity: 0;
 }
 
@@ -283,8 +283,8 @@ Fade in and out
 }
 
 .fadeInAndOut:hover {
-	    -webkit-animation: fadeinout 5s linear forwards;
-    animation: fadeinout 10s linear forwards;
+	    -webkit-animation: fadeinout 5s linear;
+    animation: fadeinout 10s linear;
     opacity: 0;
 }
 
