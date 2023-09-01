@@ -271,7 +271,7 @@ Fade in and out
 .fadeInAndOut {
     transition: 2s;
     opacity:0.1;
-    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
 }
 
 .fadeInAndOut:hover {
