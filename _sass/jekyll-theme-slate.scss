@@ -269,14 +269,14 @@ kbd {
 Fade in and out
 *******************************************************************************/
 .fadeInAndOut {
-    transition: 2s;
+    transition: 1s;
     opacity:0.2;
     transition-timing-function: ease-in-out;
 }
 
 .fadeInAndOut:hover {
   opacity:1;
-  transition:  2s;
+  transition:  1s;
   cursor: pointer;
 }
 
