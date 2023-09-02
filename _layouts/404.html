@@ -6,9 +6,16 @@ permalink: /404.html
 <div class="artop">
   <h1 style="font-size: 136px;">404</h1>
   <h3>Page not found</h3>
-  In the digital realm of a long-forgotten website, a lone wanderer stumbled upon a mysterious 404 page. Instead of the usual error message, a playful ghost materialized, offering a spectral hand as if to guide the lost user elsewhere. With a mischievous grin frozen on its translucent face, the ghost beckoned towards an invisible path, embodying both the enigma and allure of the uncharted web.
+ <p id="text1">
+   In the digital realm of a long-forgotten website, a lone wanderer stumbled upon a mysterious 404 page. Instead of the usual error message, a playful ghost materialized, offering a spectral hand as if to guide the lost user elsewhere. With a mischievous grin frozen on its translucent face, the ghost beckoned towards an invisible path, embodying both the enigma and allure of the uncharted web. </p>
+  <p id="text2">
+    Meet our friendly digital ghost! It seems you've ventured into the digital unknown, but fear not. Our ghost is here to guide you back to the land of web safety. Sometimes, even the most experienced surfers can catch a wave that leads to a 404 page. But with our ghost's spectral assistance, you're just a click away from returning to familiar digital shores. So, let our helpful phantom usher you back to the cyber realm where you belong. Happy browsing!
+  </p>
+  <p id="text3">
+    Meet our cheerful ghostly companion! Oops, it seems you've wandered into the digital twilight zone. No worries, though, because our ghost is here to lend a hand and whisk you back to the safety of the web you know and love. Sometimes, even the most intrepid explorers stumble upon a 404 page, but with our ghost's perpetual grin and friendly guidance, you're just a click away from returning to your online adventures. So, let our merry specter lead the way as you make your swift and joyful return to the digital realm you call home. Happy surfing!
+  </p>
 </div>
-  <div class="arcontainer fadeInAndOut" id="back-link">
+  <div class="arcontainer fadeInAndOut" id="back-link" title="Click to go back.">
     <div class="ghost-copy">
       <div class="one"></div>
       <div class="two"></div>
@@ -24,5 +31,23 @@ permalink: /404.html
     </div>
     <div class="arshadow"></div>
   </div>
-
-[back](./)
+<script>
+function getRandomNumber() {
+  return Math.floor(Math.random() * 3) + 1;
+}
+// Function to show one of the <p> elements based on the random number
+function showRandomText() {
+  const randomNumber = getRandomNumber();
+  // Hide all <p> elements
+  for (let i = 1; i <= 3; i++) {
+    const textElement = document.getElementById(`text${i}`);
+    textElement.style.display = 'none';
+  }
+  // Show the selected <p> element
+  const selectedTextElement = document.getElementById(`text${randomNumber}`);
+  selectedTextElement.style.display = 'block';
+}
+// Call the function on page load
+showRandomText();
+</script>
+<!-- [back](./) -->
